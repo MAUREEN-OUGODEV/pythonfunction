@@ -21,3 +21,7 @@ def continue_statement():
       if x %3==0:
           continue
       print(x)
+
+continue_statement()
+
+

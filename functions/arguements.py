@@ -16,13 +16,15 @@ def sum(*nums) :
    answer = 0
    for  num in nums:
       answer +=num
-      return (answer)  
+   return (answer)  
+ 
    
 def multiplymany(**kwargs) :
     answer =1
     for num in kwargs.values():
        answer *= num  
     return answer
+
  
 
 
